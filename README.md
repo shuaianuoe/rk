@@ -1,6 +1,6 @@
-This is the code repository for paper "Relative Keys: Putting Feature Explanation into Context".
+This is the code repository for paper "Best of Both Worlds: Contextual Feature Explanation".
 
-It primarily includes data preprocessing and model training (1), testing the explanations and monitoring explanations of SRK (2.1), OSRK (2.2), and SSRK (2.3) algorithms. Additionally, it involves testing explanation performance under dynamic models (2.4) and acts as an indicator for monitoring ML performance (2.5). It also encompasses a specific task of testing entity linking (3). In summary, the core code includes (1), 2.(1) to 2.(3).
+It primarily includes data preprocessing and model training, testing the explanations and monitoring explanations of the proposed algorithms. Additionally, it involves testing explanation performance under dynamic models and acts as an indicator for monitoring ML performance. It also encompasses a specific task of testing entity linking. 
 ___
 
 To ensure that you can successfully run the code and avoid any potential package incompatibility issues, we strongly recommend using a fresh virtual environment.
@@ -51,7 +51,7 @@ With the trained model and the inference set, we can test all the algorithms. Ma
 
 ### 2.1 test srk
 
-To test SRK, run below script:
+To test SRK & CRK, run below script:
 
 ```
 python main_srk.py
@@ -65,16 +65,6 @@ To test OSRK, run below script:
 
 ```
 python main_osrk.py
-```
-
-The average results will be printed on the command console, and the specific explanations for each instance will be stored in the `results` folder.
-
-### 2.3 test ssrk
-
-To test SSRK, run below script:
-
-```
-python main_ssrk.py
 ```
 
 The average results will be printed on the command console, and the specific explanations for each instance will be stored in the `results` folder.
