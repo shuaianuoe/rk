@@ -1,0 +1,10 @@
+datasetsname: recidivism # to test er task, just change to DBLP-ACM
+epsilon: 0  # 1-alpha by default. when 0.98-alpha, set it to 0.02
+model_num: 5 # model numbers
+multiclass: false # Control whether it is a multiclass dataset
+noise_flag: false # for monotoring ML model only
+online_fraction: 1 # for OSRK or SSRK only
+sample_num: 50 # Number of instances to explain
+window_size: 1.5 # for dynamic models only
+step_size: 0.3 # sliding window step
+strategy: last # conflicts policy
