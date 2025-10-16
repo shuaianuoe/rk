@@ -1,6 +1,6 @@
 This is the code repository for paper "Best of Both Worlds: Contextual Feature Explanation".
 
-It primarily includes data preprocessing and model training, testing the explanations and monitoring explanations of the proposed algorithms. Additionally, it involves testing explanation performance under dynamic models and acts as an indicator for monitoring ML performance. It also encompasses a specific task of testing entity linking. 
+It primarily includes the core codes, covering data preprocessing and model training, testing the explanations and monitoring explanations of the proposed algorithms. Additionally, it involves testing explanation performance under dynamic models and acts as an indicator for monitoring ML performance. It also encompasses a specific task of testing entity linking. 
 ___
 
 To ensure that you can successfully run the code and avoid any potential package incompatibility issues, we strongly recommend using a fresh virtual environment.
