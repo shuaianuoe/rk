@@ -30,7 +30,7 @@ If the speed is too slow, consider specifying a dedicated mirror.
 pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple/
 ```
 
-Note: If you do not intend to test the entity linking task (3), we recommend installing the simpler `requirements_simple.txt`. It ensures that you can complete the core tasks (1), 2.(1) to 2.(3).
+Note: If you do not intend to test the entity linking task, we recommend installing the simpler `requirements_simple.txt`. It still ensures that you can complete the core tasks.
 ```
 pip install -r requirements_simple.txt
 ```
